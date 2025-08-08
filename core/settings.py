@@ -61,9 +61,8 @@ INSTALLED_APPS = [
     'drf_yasg',
     'django.contrib.staticfiles',
     'movies',
-    
     'rest_framework',
-     'rest_framework_simplejwt',
+    'rest_framework_simplejwt',
     
 
 
@@ -113,7 +112,6 @@ if not DATABASE_URL:
 DATABASES = {
     'default': dj_database_url.parse(DATABASE_URL, conn_max_age=600, ssl_require=True)
 }
-
 CACHES = {
     "default": {
         "BACKEND": "django_redis.cache.RedisCache",
