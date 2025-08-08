@@ -61,8 +61,10 @@ INSTALLED_APPS = [
     'drf_yasg',
     'django.contrib.staticfiles',
     'movies',
+    
     'rest_framework',
-    'rest_framework_simplejwt',
+     'rest_framework_simplejwt',
+    
 
 
 ]
